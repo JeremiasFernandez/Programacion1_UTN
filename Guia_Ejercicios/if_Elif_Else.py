@@ -14,11 +14,11 @@ else:
 
 print(f"El jugador con {altura} cm juega de {posicion}.")
 
-nota = random.randint(1, 10)
+nota = int(input("ingrese una nota: "))
 
-if nota >= 6:
-    print("Promoción directa, la nota es {nota}.")
-elif nota in [4, 5]:
-    print("Aprobado, la nota es {nota}.")
-else:
-    print("Desaprobado, la nota es {nota}.")
+if nota >= 6 and nota <= 10:
+    print(f"Promoción directa, la nota es: {nota}")
+elif nota >= 4 and nota <= 5:
+    print(f"Aprobado, la nota es: {nota}")
+elif nota >= 1 and nota <= 3:
+    print(f"Desaprobado, la nota es: {nota}")
