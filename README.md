@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 313-C2-2025
 Programacion-1 UTN
 
@@ -8,3 +9,6 @@ Programacion-1 UTN
 
 
 
+=======
+#Este trabajo es mas que nada mi prueba de como subir cosasa a GitHub
+>>>>>>> cb249f445cb37bb380183f33c8b3aed5604ab02e
