@@ -1,14 +1,16 @@
-<<<<<<< HEAD
-# 313-C2-2025
-Programacion-1 UTN
+# 📘 313-C2-2025
+## 💻 Programación 1 - UTN
 
-    Division: 313
-    Alumno: Jeremias Fernandez
-    DNI: 46098893
-    Legajo: 190017
+---
+
+### 📝 Mis datos
+- **División:** 313  
+- **Alumno:** Jeremias Fernandez  
+- **DNI:** 46098893  
+- **Legajo:** 190017  
+
+---
+
+📂 *Este respositorio es el luga donde estare guardando todos los archivos de practica de mi materia de Programacion 1, ademas, estoy recien aprendiendo a usar GitHub*
 
 
-
-=======
-#Este trabajo es mas que nada mi prueba de como subir cosasa a GitHub
->>>>>>> cb249f445cb37bb380183f33c8b3aed5604ab02e
