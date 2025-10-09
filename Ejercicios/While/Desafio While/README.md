@@ -18,7 +18,7 @@
 - ✨ **Úsalo como inspiración**: no reemplaza el aprendizaje ni la lógica propia.
 - 🧪 **Puede contener errores**: verificala, probala y mejorala.
 - 🧭 **Dónde encontrarla**:
-  - Carpeta: [`/version-IA/`](./version-IA/) *(si existe en esta rama)*  
+  - Carpeta: [`/version-IA/`](./version-IA/)
   - **O** rama: `ai-version`  
     ```bash
     git fetch origin
@@ -28,8 +28,6 @@
   - Suposiciones de la IA.
   - Complejidad aproximada (Big-O si aplica).
   - Posibles mejoras y tests sugeridos.
-
-> **Regla de oro**: primero intentá resolver el ejercicio **sin mirar la versión IA**. Después compará y tomá ideas.
 
 ---
 
