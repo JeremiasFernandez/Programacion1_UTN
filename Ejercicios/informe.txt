@@ -1,0 +1,9 @@
+INFORME FINAL DEL CURSO
+-------------------------
+Cantidad total de estudiantes: 3
+Promedio general: 6.00
+Aprobados: 2
+Desaprobados: 1
+Mejor nota: 8 (Alumno: 2111)
+Peor nota: 3 (Alumno: loquiño)
+-------------------------
