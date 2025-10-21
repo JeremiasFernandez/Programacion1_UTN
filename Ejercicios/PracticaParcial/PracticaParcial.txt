@@ -1,0 +1,88 @@
+Práctica 1 para el parcial
+
+Misión
+Van a desarrollar un sistema en Python que gestione un inventario de equipos tecnológicos (notebooks, routers, impresoras, etc.) para un pequeño laboratorio de redes.
+
+El sistema trabajará con un archivo equipos.csv que se genera o actualiza según las acciones del usuario.
+
+Condiciones
+• Usar funciones para cada opción del menú.
+
+• Validar todas las entradas.
+
+• No permitir usar las opciones 2–7 sin haber cargado o leído el archivo primero.
+
+• Usar estructuras adecuadas (listas y diccionarios).
+
+• Guardar y leer CSV con csv.DictReader / csv.DictWriter.
+
+Pasos iniciales
+Crear archivos para funciones y validaciones → Hacer la función menú → Hacer la opción 1 del menú → ...
+
+Menú del programa
+¿Cómo lo harías?
+
+
+Opción 1. Cargar equipos
+- Permitir ingresar N equipos (cantidad pedida al usuario).
+
+- Cada equipo se representa con un diccionario con las claves: 
+    - "id" (entero autoincremental), 
+    - "nombre",
+    - "categoría" (router, pc, notebook, impresora),
+    - "estado" (funcional o fuera de servicio),
+    - "valor" (float, validado como número positivo).
+Los datos se guardan en una lista y también en el archivo equipos.csv.
+
+- Si el archivo ya existe, preguntar:
+    -“¿Desea reemplazar los datos existentes o agregar nuevos equipos?”
+
+
+Opción 2. Mostrar inventario
+
+- Mostrar todos los equipos cargados con formato:
+- Separar visualmente con líneas.
+
+
+Opción 3. Buscar equipo
+- Buscar un equipo por nombre (ignorando mayúsculas/minúsculas).
+- Mostrar si existe, y si existe, mostrar todos sus datos
+
+
+Opción 4. Estadísticas
+- Calcular y mostrar:
+- Cantidad total de equipos.
+- Promedio general de valores.
+- Cantidad de equipos “fuera de servicio”.
+- Equipo más caro y más barato (nombre y valor).
+
+
+Opción 5. Filtrar por categoría
+- Solicitar una categoría (ej: “router”) y mostrar solo los equipos de ese tipo.
+- Si no hay coincidencias, informar.
+- Opción 6. Ordenar por valor
+- Pedir criterio de ordenamiento (ASC o DESC) y mostrar la lista ordenada por valor sin alterar la original.
+- Opción 7. Generar informe
+- Crear un archivo informe_inventario.txt.
+- Mostrarlo por pantalla.
+- Formato del informe:
+
+INFORME GENERAL DE INVENTARIO
+
+-----------------------------
+
+Equipos totales: XX
+
+Promedio de valor: XX.XX
+
+Fuera de servicio: XX
+
+Más caro: X (Nombre: XXX)
+
+Más barato: X (Nombre: XXX)
+
+-----------------------------
+
+Opción 8. Salir
+- Mostrar mensaje de despedida.
+- Guardar automáticamente los cambios antes de salir.
